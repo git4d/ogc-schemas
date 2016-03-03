@@ -1,10 +1,10 @@
 {
-	"name": "ogc-schemas",
-        "homepage": "https://github.com/highsource/ogc-schemas",
+	"name": "ogc-schemas-i4d",
+        "homepage": "https://github.com/git4d/ogc-schemas",
         "authors": [
-                "Alexey Valikov"
+                "David Daignan"
         ],
-        "description": "Jsonix mappings for OGC Schemas.",
+        "description": "Custom version of Jsonix mappings for OGC Schemas.",
 	"main": [
 		"scripts/lib/ARML_2_0.js",
 		"scripts/lib/CSW_2_0_2.js",
