@@ -2,7 +2,7 @@ var CSW_2_0_2_Module_Factory = function () {
   var CSW_2_0_2 = {
     n: 'CSW_2_0_2',
     dens: 'http:\/\/www.opengis.net\/cat\/csw\/2.0.2',
-    deps: ['OWS_1_0_0', 'DC_1_1'],
+    deps: ['OWS_1_0_0', 'DC_1_1', 'AdsDataCenter'],
     tis: [{
         ln: 'BriefRecordType',
         bti: '.AbstractRecordType',
@@ -434,6 +434,18 @@ var CSW_2_0_2_Module_Factory = function () {
               ns: 'http:\/\/www.opengis.net\/ows'
             },
             ti: 'OWS_1_0_0.BoundingBoxType',
+            t: 'er'
+          }, {
+            n: 'embeddedObject',
+            mno: 0,
+            col: true,
+            mx: false,
+            dom: false,
+            en: {
+              lp: 'EmbeddedObject',
+              ns: 'urn:ads-data-center:schemas'
+            },
+            ti: 'AdsDataCenter.Entity',
             t: 'er'
           }]
       }, {
