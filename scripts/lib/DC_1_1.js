@@ -3,6 +3,31 @@ var DC_1_1_Module_Factory = function () {
     n: 'DC_1_1',
     dens: 'http:\/\/purl.org\/dc\/elements\/1.1\/',
     tis: [{
+        localName: 'URIElement',
+        propertyInfos: [{
+          name: 'value',
+          type: 'value'
+        }, {
+          name: 'protocol',
+          attributeName: {
+            localPart: 'protocol'
+          },
+          type: 'attribute'
+        }, {
+          name: 'name',
+          attributeName: {
+            localPart: 'name'
+          },
+          type: 'attribute'
+        }, {
+          name: 'description',
+          attributeName: {
+            localPart: 'description'
+          },
+          type: 'attribute'
+        }]
+      },
+      {
         ln: 'ElementContainer',
         tn: 'elementContainer',
         ps: [{
@@ -101,7 +126,7 @@ var DC_1_1_Module_Factory = function () {
         sh: 'DC-element'
       }, {
         en: 'URI',
-        ti: '.SimpleLiteral',
+        ti: '.URIElement',
         sh: 'DC-element'
       }]
   };
